@@ -1,0 +1,60 @@
+Patient_Rights,Thai_Rights_Name,Eng_Rights_Name
+SS,สิทธิประกันสังคม,Social Security Scheme
+OFC,สิทธิข้าราชการ/สิทธิรัฐวิสาหกิจ,Government Or State Enterprise Officer
+FRG,สถานะคนไทยในต่างประเทศ,Foreign Resident
+SOF,สิทธิประกันสังคม/สิทธิข้าราชการ/สิทธิรัฐวิสาหกิจ,Social Security Scheme & Government Or State Enterprise Officer
+BFC,สิทธิข้าราชการการเมือง/นักการเมือง,Parliament Bureaucrat
+NRD,สถานะคนต่างด้าว,Non Thai Resident
+PBF,สิทธิครูเอกชน/สิทธิข้าราชการการเมือง,Private School Teacher & Parliament Bureaucrat
+VET,สิทธิทหารผ่านศึก,Veteran Scheme
+PSO,สิทธิประกันสังคม/สิทธิครูเอกชน/สิทธิข้าราชการ/สิทธิรัฐวิสาหกิจ,Social Security Scheme & Private School Teacher & Government Or State Enterprise Officer
+VOF,สิทธิทหารผ่านศึก/สิทธิข้าราชการ/สิทธิรัฐวิสาหกิจ,Veteran Scheme & Government Or State Enterprise Officer
+VSS,สิทธิประกันสังคม/สิทธิทหารผ่านศึก,Social Security Scheme & Veteran Scheme
+VBF,สิทธิทหารผ่านศึก/สิทธิข้าราชการการเมือง,Veteran Scheme & Parliament Bureaucrat
+VSO,สิทธิประกันสังคม/สิทธิทหารผ่านศึก/สิทธิข้าราชการ/สิทธิรัฐวิสาหกิจ,Social Security Scheme & Veteran Scheme & Government Or State Enterprise Officer
+VSB,สิทธิประกันสังคม/สิทธิทหารผ่านศึก/สิทธิข้าราชการการเมือง,Social Security Scheme & Veteran Scheme & Parliament Bureaucrat
+PVT,สิทธิครูเอกชน,Private School Teacher
+PSS,สิทธิประกันสังคม/สิทธิครูเอกชน,Social Security Scheme & Private School Teacher
+POF,สิทธิครูเอกชน/สิทธิข้าราชการ/สิทธิรัฐวิสาหกิจ,Private School Teacher & Government Or State Enterprise Officer
+PSB,สิทธิประกันสังคม/สิทธิครูเอกชน/สิทธิข้าราชการการเมือง,Social Security Scheme & Private School Teacher & Parliament Bureaucrat
+VPT,สิทธิครูเอกชน/สิทธิทหารผ่านศึก,Private School Teacher & Veteran Scheme
+VPS,สิทธิครูเอกชน/สิทธิประกันสังคม/สิทธิทหารผ่านศึก,Private School Teacher & Social Security Scheme & Veteran Scheme
+VPO,สิทธิครูเอกชน/สิทธิทหารผ่านศึก/สิทธิข้าราชการ/สิทธิรัฐวิสาหกิจ,Private School Teacher & Veteran Scheme & Government Or State Enterprise Officer
+VPB,สิทธิครูเอกชน/สิทธิทหารผ่านศึก/สิทธิข้าราชการการเมือง,Private School Teacher & Veteran Scheme & Parliament Bureaucrat
+SBF,สิทธิประกันสังคม/สิทธิข้าราชการการเมือง,Social Security Scheme & Parliament Bureaucrat
+SSI,สิทธิประกันสังคมกรณีทุพลภาพ,"Social Security Scheme With ""Invalidity"" Status"
+SIF,สิทธิประกันสังคมกรณีทุพพลภาพ/สิทธิข้าราชการ/สิทธิรัฐวิสาหกิจ,"Social Security Scheme With ""Invalidity"" Status & Government Or State Enterprise Officer"
+PSI,สิทธิครูเอกชน/สิทธิประกันสังคมกรณีทุพลภาพ,"Private School Teacher & Social Security Scheme With ""Invalidity"" Status"
+VIO,สิทธิประกันสังคมกรณีทุพพลภาพ/สิทธิทหารผ่านศึก/สิทธิข้าราชการ/สิทธิรัฐวิสาหกิจ,"Social Security Scheme With ""Invalidity"" Status & Veteran Scheme & Government Or State Enterprise Officer"
+VSI,สิทธิประกันสังคมกรณีทุพพลภาพ/สิทธิทหารผ่านศึก,"Social Security Scheme With ""Invalidity"" Status & Veteran Scheme"
+STP,บุคคลผู้มีปัญหาสถานะและสิทธิ,Stateless People
+POL,สิทธิครูเอกชน/สิทธิข้าราชการ/สิทธิรัฐวิสาหกิจ/สิทธิสวัสดิการพนักงานส่วนท้องถิ่น,Private School Teacher & Government Or State Enterprise Officer & Local Government Officer Scheme
+IOL,สิทธิประกันสังคมกรณีทุพลภาพ/สิทธิข้าราชการ/สิทธิรัฐวิสาหกิจ/สิทธิสวัสดิการพนักงานส่วนท้องถิ่น,"Social Security Scheme With ""Invalidity"" Status & Government Or State Enterprise Officer & Local Government Officer Scheme"
+SOL,สิทธิประกันสังคม/สิทธิข้าราชการ/สิทธิรัฐวิสาหกิจ/สิทธิสวัสดิการพนักงานส่วนท้องถิ่น,Social Security Scheme & Government Or State Enterprise Officer & Local Government Officer Scheme
+L01,สิทธิประกันสังคมกรณีทุพพลภาพ/สิทธิทหารผ่านศึก/สิทธิข้าราชการ/สิทธิรัฐวิสาหกิจ/สิทธิสวัสดิการพนักงานส่วนท้องถิ่น,"Social Security Scheme With ""Invalidity"" Status & Veteran Scheme & Government Or State Enterprise Officer & Local Government Officer Scheme"
+L02,สิทธิครูเอกชน/สิทธิทหารผ่านศึก/สิทธิสวัสดิการพนักงานส่วนท้องถิ่น/สิทธิข้าราชการการเมือง,Private School Teacher & Veteran Scheme & Local Government Officer Scheme & Parliament Bureaucrat
+L03,สิทธิครูเอกชน/สิทธิทหารผ่านศึก/สิทธิข้าราชการ/สิทธิรัฐวิสาหกิจ/สิทธิสวัสดิการพนักงานส่วนท้องถิ่น,Private School Teacher & Veteran Scheme & Government Or State Enterprise Officer & Local Government Officer Scheme
+L04,สิทธิครูเอกชน/สิทธิประกันสังคม/สิทธิทหารผ่านศึก/สิทธิสวัสดิการพนักงานส่วนท้องถิ่น,Private School Teacher & Social Security Scheme & Veteran Scheme & Local Government Officer Scheme
+L05,สิทธิประกันสังคม/สิทธิทหารผ่านศึก/สิทธิสวัสดิการพนักงานส่วนท้องถิ่น/สิทธิข้าราชการการเมือง,Social Security Scheme & Veteran Scheme & Local Government Officer Scheme & Parliament Bureaucrat
+L06,สิทธิประกันสังคม/สิทธิทหารผ่านศึก/สิทธิข้าราชการ/สิทธิรัฐวิสาหกิจ/สิทธิสวัสดิการพนักงานส่วนท้องถิ่น,Social Security Scheme & Veteran Scheme & Government Or State Enterprise Officer & Local Government Officer Scheme
+VIL,สิทธิประกันสังคมกรณีทุพลภาพ/สิทธิทหารผ่านศึก/สิทธิสวัสดิการพนักงานส่วนท้องถิ่น,"Social Security Scheme With ""Invalidity"" Status & Veteran Scheme & Local Government Officer Scheme"
+VLB,สิทธิทหารผ่านศึก/สิทธิสวัสดิการพนักงานส่วนท้องถิ่น/สิทธิข้าราชการการเมือง,Veteran Scheme & Local Government Officer Scheme & Parliament Bureaucrat
+VLG,สิทธิทหารผ่านศึก/สิทธิสวัสดิการพนักงานส่วนท้องถิ่น,Veteran Scheme & Local Government Officer Scheme
+VOL,สิทธิทหารผ่านศึก/สิทธิข้าราชการ/สิทธิรัฐวิสาหกิจ/สิทธิสวัสดิการพนักงานส่วนท้องถิ่น,Veteran Scheme & Government Or State Enterprise Officer & Local Government Officer Scheme
+VPL,สิทธิครูเอกชน/สิทธิทหารผ่านศึก/สิทธิสวัสดิการพนักงานส่วนท้องถิ่น,Private School Teacher & Veteran Scheme & Local Government Officer Scheme
+VSL,สิทธิประกันสังคม/สิทธิทหารผ่านศึก/สิทธิสวัสดิการพนักงานส่วนท้องถิ่น,Social Security Scheme & Veteran Scheme & Local Government Officer Scheme
+L07,สิทธิประกันสังคม/สิทธิครูเอกชน/สิทธิสวัสดิการพนักงานส่วนท้องถิ่น/สิทธิข้าราชการการเมือง,Social Security Scheme & Private School Teacher & Local Government Officer Scheme & Parliament Bureaucrat
+L08,สิทธิประกันสังคม/สิทธิครูเอกชน/สิทธิข้าราชการ/สิทธิรัฐวิสาหกิจ/สิทธิสวัสดิการพนักงานส่วนท้องถิ่น,Social Security Scheme & Private School Teacher & Government Or State Enterprise Officer & Local Government Officer Scheme
+PLB,สิทธิครูเอกชน/สิทธิสวัสดิการพนักงานส่วนท้องถิ่น/สิทธิข้าราชการการเมือง,Private School Teacher & Local Government Officer Scheme & Parliament Bureaucrat
+PSL,สิทธิประกันสังคม/สิทธิครูเอกชน/สิทธิสวัสดิการพนักงานส่วนท้องถิ่น,Social Security Scheme & Private School Teacher & Local Government Officer Scheme
+PIL,สิทธิครูเอกชน/สิทธิประกันสังคมกรณีทุพลภาพ/สิทธิสวัสดิการพนักงานส่วนท้องถิ่น,"Private School Teacher & Social Security Scheme With ""Invalidity"" Status & Local Government Officer Scheme"
+SLB,สิทธิประกันสังคม/สิทธิสวัสดิการพนักงานส่วนท้องถิ่น/สิทธิข้าราชการการเมือง,Social Security Scheme & Local Government Officer Scheme & Parliament Bureaucrat
+OFL,สิทธิข้าราชการ/สิทธิรัฐวิสาหกิจ/สิทธิสวัสดิการพนักงานส่วนท้องถิ่น,Government Or State Enterprise Officer & Local Government Officer Scheme
+UCS,สิทธิประกันสุขภาพถ้วนหน้า,Universal Coverage Scheme
+WEL,สิทธิประกันสุขภาพถ้วนหน้า(ยกเว้นการร่วมจ่ายค่าบริการ 30 บาท),Welfare Scheme
+LGO,สิทธิสวัสดิการพนักงานส่วนท้องถิ่น,Local Government Officer Scheme
+LBF,สิทธิสวัสดิการพนักงานส่วนท้องถิ่น/สิทธิข้าราชการการเมือง,Local Government Officer Scheme & Parliament Bureaucrat
+SLG,สิทธิประกันสังคม/สิทธิสวัสดิการพนักงานส่วนท้องถิ่น,Social Security Scheme & Local Government Officer Scheme
+SIL,สิทธิประกันสังคมกรณีทุพลภาพ/สิทธิสวัสดิการพนักงานส่วนท้องถิ่น,"Social Security Scheme With ""Invalidity"" Status & Local Government Officer Scheme"
+PLG,สิทธิครูเอกชน/สิทธิสวัสดิการพนักงานส่วนท้องถิ่น,Private School Teacher & Local Government Officer Scheme
+NRH,บุคคลคนต่างด้าว(ซื้อประกันสุขภาพ),Non Thai Resident With Health Insurance
