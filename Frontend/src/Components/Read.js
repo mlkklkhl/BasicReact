@@ -128,7 +128,7 @@ function Read() {
 
     // useEffect(() => {
     //     if (patients.length > 0) {
-    //         setLastestID("HN" + (parseInt(patients.at(-1).HN.replaceAll("HN", "")) + 1));
+    //         setLastestID("WU" + (parseInt(patients.at(-1).HN.replaceAll("WU", "")) + 1));
     //         console.log(lastestID)
     //     }
     // }, [patients]);
