@@ -186,9 +186,8 @@ app.post('/create/', async (req, res) => {
 // Update API
 app.put('/patients/update/', async (req, res) => {
 	const params = req.body;
-
-	const patientID = params.patientID;
-	var updateSQL = "UPDATE patients SET HN = '" + params.HN + "', Name = '" + params.Name + "', Patient_Rights_1 = '" + params.Patient_Rights_1 + "', Patient_Rights_2 = '" + params.Patient_Rights_2 + "', Patient_Rights_3 = '" + params.Patient_Rights_3 + "', Chronic_Disease= '" + params.Chronic_Disease + "', Address = '" + params.Address + "', Phone ='" + params.Phone + "' WHERE (ID = '" + patientID + "');";
+	var updateSQL = "UPDATE patients SET Name = '" + params.Name + "', Patient_Rights_1 = '" + params.Patient_Rights_1 + "', Patient_Rights_2 = '" + params.Patient_Rights_2 + "', Patient_Rights_3 = '" + params.Patient_Rights_3 + "', Chronic_Disease= '" + params.Chronic_Disease + "', Address = '" + params.Address + "', Phone ='" + params.Phone + "' WHERE (HN = '" + params.HN + "');";
+	var readSQL = "SELECT * FROM patients";
 
 	await new Promise((resolve, rejects) => {
 		try {
@@ -196,7 +195,13 @@ app.put('/patients/update/', async (req, res) => {
 				if (err) {
 					console.log('database connection error!, ', err);
 				} else {
-					res.status(200).send();
+					con.query(readSQL, (err, results) => {
+						if (err) {
+							console.log('database connection error!, ', err);
+						} else {
+							res.status(200).send(results);
+						}
+					});
 				}
 			});
 		} catch (err) {
@@ -209,11 +214,8 @@ app.put('/patients/update/', async (req, res) => {
 
 // Delete API
 app.delete('/patients/delete/', async (req, res) => {
-
 	const params = req.body;
-
-	const patientID = params.patientID;
-	var deleteSQL = "DELETE FROM patients WHERE ID = " + patientID + ";";
+	var deleteSQL = "DELETE FROM patients WHERE HN = " + params.HN + ";";
 
 	await new Promise((resolve, rejects) => {
 		try {
