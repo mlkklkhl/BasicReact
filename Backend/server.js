@@ -2,46 +2,40 @@ const mysql = require('mysql2');
 const config = require('./config');
 const express = require('express');
 const cors = require('cors');
-const { resolve } = require('path');
-const { rejects } = require('assert');
 const app = express();
-
 const port = config.express.port;
 
 const con = mysql.createConnection({
-	host: config.mysql.host,
-	port: config.mysql.port,
-	database: config.mysql.database,
-	user: config.mysql.user,
-	password: config.mysql.password
+    host: config.mysql.host,
+    port: config.mysql.port,
+    database: config.mysql.database,
+    user: config.mysql.user,
+    password: config.mysql.password
 });
 
 app.use(cors())
 app.use(express.json());
-
 app.get('/', (req, res) => {
-	res.send('Hello World! Let\'s Working with SQL Databases')
+    res.send('Hello World! Let\'s Working with MySQL Databases')
 })
-
 app.listen(port, () => {
-	console.log(`Test Example app listening at http://localhost:${port}`)
+    console.log(`Example app listening at http://localhost:${port}`)
 })
 
 const connectDB = async () => {
-	try {
-		await con.connect(function (err) {
-			if (err) {
-				console.log('database connection error!, ', err);
-			} else {
-				console.log('database connection successfully!');
-			}
-		});
-	} catch (err) {
-		console.log(err);
-		process.exit(1);
-	}
+    try {
+        await con.connect(function (err) {
+            if (err) {
+                console.log('database connection error!, ', err);
+            } else {
+                console.log('database connection successfully!');
+            }
+        });
+    } catch (err) {
+        console.log(err);
+        process.exit(1);
+    }
 }
-
 connectDB();
 
 // Read Patients All API
@@ -103,7 +97,7 @@ app.post('/login/', async (req, res) => {
 });
 
 // Read Patient by Name
-app.post('/patients/:searchText', async (req, res) => {
+app.post('/patients/search/:searchText', async (req, res) => {
 	const { params } = req;
 	const searchText = params.searchText
 
@@ -161,10 +155,13 @@ app.post('/queryid', async (req, res) => {
 });
 
 // // Create API
-app.post('/create/', async (req, res) => {
+app.post('/patients/create/', async (req, res) => {
 	const params = req.body;
 
+	console.log("create:", params);
+	
 	var insertSQL = "INSERT INTO patients (HN, Name, Patient_Rights_1, Patient_Rights_2, Patient_Rights_3, Chronic_Disease, Address, Phone) VALUES ('" + params.HN + "', '" + params.Name + "', '" + params.Patient_Rights_1 + "', '" + params.Patient_Rights_2 + "', '" + params.Patient_Rights_3 + "', '" + params.Chronic_Disease + "', '" + params.Address + "', '" + params.Phone + "');";
+	var readSQL = "SELECT * FROM patients";
 
 	await new Promise((resolve, rejects) => {
 		try {
@@ -172,7 +169,13 @@ app.post('/create/', async (req, res) => {
 				if (err) {
 					console.log('database connection error!, ', err);
 				} else {
-					res.status(200).send('insert success');
+					con.query(readSQL, (err, results) => {
+						if (err) {
+							console.log('database connection error!, ', err);
+						} else {
+							res.status(200).send(results);
+						}
+					});
 				}
 			});
 		} catch (err) {
@@ -186,6 +189,8 @@ app.post('/create/', async (req, res) => {
 // Update API
 app.put('/patients/update/', async (req, res) => {
 	const params = req.body;
+
+	console.log("update:", params);
 	var updateSQL = "UPDATE patients SET Name = '" + params.Name + "', Patient_Rights_1 = '" + params.Patient_Rights_1 + "', Patient_Rights_2 = '" + params.Patient_Rights_2 + "', Patient_Rights_3 = '" + params.Patient_Rights_3 + "', Chronic_Disease= '" + params.Chronic_Disease + "', Address = '" + params.Address + "', Phone ='" + params.Phone + "' WHERE (HN = '" + params.HN + "');";
 	var readSQL = "SELECT * FROM patients";
 
@@ -215,7 +220,9 @@ app.put('/patients/update/', async (req, res) => {
 // Delete API
 app.delete('/patients/delete/', async (req, res) => {
 	const params = req.body;
-	var deleteSQL = "DELETE FROM patients WHERE HN = " + params.HN + ";";
+	console.log("delete:", params);
+	var deleteSQL = "DELETE FROM patients WHERE (HN = '" + params.HN + "');";
+	var readSQL = "SELECT * FROM patients";
 
 	await new Promise((resolve, rejects) => {
 		try {
@@ -223,7 +230,13 @@ app.delete('/patients/delete/', async (req, res) => {
 				if (err) {
 					console.log('database connection error!, ', err);
 				} else {
-					res.status(200).send();
+					con.query(readSQL, (err, results) => {
+						if (err) {
+							console.log('database connection error!, ', err);
+						} else {
+							res.status(200).send(results);
+						}
+					});
 				}
 			});
 		} catch (err) {
