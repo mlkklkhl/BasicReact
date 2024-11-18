@@ -1,0 +1,114 @@
+{
+    "staffs": [
+        {
+            "id": "1",
+            "name": "John Doe",
+            "email": "john.doe@example.com",
+            "phone": "123-456-7890",
+            "address": "123 Main St, Anytown, USA",
+            "role": "nurse",
+            "status": "Active",
+            "createdAt": "2023-01-01T00:00:00Z",
+            "updatedAt": "2023-01-01T00:00:00Z"
+        },
+        {
+            "id": "2",
+            "name": "Jane Smith",
+            "email": "jane.smith@example.com",
+            "phone": "123-456-7891",
+            "address": "456 Elm St, Anytown, USA",
+            "role": "nurse",
+            "status": "Active",
+            "createdAt": "2023-01-02T00:00:00Z",
+            "updatedAt": "2023-01-02T00:00:00Z"
+        },
+        {
+            "id": "3",
+            "name": "Alice Johnson",
+            "email": "alice.johnson@example.com",
+            "phone": "123-456-7892",
+            "address": "789 Oak St, Anytown, USA",
+            "role": "nurse",
+            "status": "Active",
+            "createdAt": "2023-01-03T00:00:00Z",
+            "updatedAt": "2023-01-03T00:00:00Z"
+        },
+        {
+            "id": "4",
+            "name": "Bob Brown",
+            "email": "bob.brown@example.com",
+            "phone": "123-456-7893",
+            "address": "101 Pine St, Anytown, USA",
+            "role": "nurse",
+            "status": "Active",
+            "createdAt": "2023-01-04T00:00:00Z",
+            "updatedAt": "2023-01-04T00:00:00Z"
+        },
+        {
+            "id": "5",
+            "name": "Carol White",
+            "email": "carol.white@example.com",
+            "phone": "123-456-7894",
+            "address": "202 Maple St, Anytown, USA",
+            "role": "nurse",
+            "status": "Active",
+            "createdAt": "2023-01-05T00:00:00Z",
+            "updatedAt": "2023-01-05T00:00:00Z"
+        },
+        {
+            "id": "6",
+            "name": "David Green",
+            "email": "david.green@example.com",
+            "phone": "123-456-7895",
+            "address": "303 Birch St, Anytown, USA",
+            "role": "doctor",
+            "status": "Active",
+            "createdAt": "2023-01-06T00:00:00Z",
+            "updatedAt": "2023-01-06T00:00:00Z"
+        },
+        {
+            "id": "7",
+            "name": "Eva Black",
+            "email": "eva.black@example.com",
+            "phone": "123-456-7896",
+            "address": "404 Cedar St, Anytown, USA",
+            "role": "doctor",
+            "status": "Active",
+            "createdAt": "2023-01-07T00:00:00Z",
+            "updatedAt": "2023-01-07T00:00:00Z"
+        },
+        {
+            "id": "8",
+            "name": "Frank Blue",
+            "email": "frank.blue@example.com",
+            "phone": "123-456-7897",
+            "address": "505 Spruce St, Anytown, USA",
+            "role": "doctor",
+            "status": "Active",
+            "createdAt": "2023-01-08T00:00:00Z",
+            "updatedAt": "2023-01-08T00:00:00Z"
+        },
+        {
+            "id": "9",
+            "name": "Grace Yellow",
+            "email": "grace.yellow@example.com",
+            "phone": "123-456-7898",
+            "address": "606 Willow St, Anytown, USA",
+            "role": "doctor",
+            "status": "Active",
+            "createdAt": "2023-01-09T00:00:00Z",
+            "updatedAt": "2023-01-09T00:00:00Z"
+        },
+        {
+            "id": "10",
+            "name": "Henry Red",
+            "email": "henry.red@example.com",
+            "phone": "123-456-7899",
+            "address": "707 Aspen St, Anytown, USA",
+            "role": "doctor",
+            "status": "Active",
+            "createdAt": "2023-01-10T00:00:00Z",
+            "updatedAt": "2023-01-10T00:00:00Z"
+        }
+    ]
+}
